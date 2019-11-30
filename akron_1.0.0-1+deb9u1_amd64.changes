@@ -1,0 +1,23 @@
+Format: 1.8
+Date: Wed, 16  Jan 2019 18:00:00 +0000
+Source: akron
+Binary: akron
+Architecture: all
+Version: 1.0.0-1+deb9u1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: CoCo <admin@aelintra.com>
+Changed-By: CoCoSoft <admin@aelintra.com>
+Description:
+ akron      - akron - A SIP redirect service
+Changes:
+ akron (1.0.0-1+deb9u1) UNRELEASED; urgency=low
+ .
+   * untagged
+   - first build
+Checksums-Sha1:
+ 2756160446faa86179127059671b9ac544793365 6415872 akron_1.0.0-1+deb9u1_all.deb
+Checksums-Sha256:
+ 489a29937cdf6336efaccd898d50519318669b9c7e3947e789b38602348d58fb 6415872 akron_1.0.0-1+deb9u1_all.deb
+Files:
+ c917827f556280cb3a10431a6edfeec0 6415872 network extra akron_1.0.0-1+deb9u1_all.deb

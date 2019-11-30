@@ -1,0 +1,11 @@
+ACCEPT net:[fe80::/10] $FW tcp 22 - - # SSH from LLA
+ACCEPT net:[fe80::/10] $FW tcp 80 - - # HTTP from LLA
+ACCEPT net:[fe80::/10] $FW tcp 443 - - # HTTPS from LLA
+ACCEPT net:[fe80::/10] $FW tcp 5061 - - # SIPTLS from LLA
+ACCEPT net:[fe80::/10] $FW udp 5060 - - # SIP from LLA
+ 
+ACCEPT net:[fd00::/8] $FW tcp 22 - - # SSH from ULA
+ACCEPT net:[fd00::/8] $FW tcp 80 - - # HTTP from ULA
+ACCEPT net:[fd00::/8] $FW tcp 443 - - # HTTPS from ULA
+ACCEPT net:[fd00::/8] $FW tcp 5061 - - # SIPTLS from ULA
+ACCEPT net:[fd00::/8] $FW udp 5060 - - # SIP from ULA
